@@ -79,7 +79,7 @@
 // console.log("--countdown End--");
 
 
-// let attemptleft=+prompt("enter a number");
+
 // let attemptleft=3;
 // let islogged=false;
 // let correctpassword = "secret123"
@@ -88,22 +88,17 @@
 //     // let correctpassword=prompt("enter a correct pswd");
 //     if(enterpassword===correctpassword){
 //         islogged=true;
-        
 //         break;
-       
 //     }
-
 //         attemptleft--;
     
 //     // console.clear();
     
 //         console.log("Incorrect password.please try again");
 //         console.log(`Enter your password.(${attemptleft} attempt is left)`);
-    
 //     if(attemptleft == 0){
 //         islogged = false;
 //     }
-
 // }
 
 // if(islogged==true){   console.log("Login suceessfully");
@@ -120,19 +115,90 @@
 //    console.log(`Loading.....${loadprogress}`);
 // }
 // console.log("Resource Loading completed");
-let target=7;
 
-let attempt=0;
-console.log("Generating Random Number");
-let current=1;
-while(current!==target){
-    current=(Math.floor(Math.random()*10)+1);
-    attempt++;
-    console.log(`Attempt ${attempt}: Generated ${current}`);
 
+// let target=7;
+
+// let attempt=0;
+// console.log("Generating Random Number");
+// let current=1;
+// while(current!==target){
+//     current=(Math.floor(Math.random()*10)+1);
+//     attempt++;
+//     console.log(`Attempt ${attempt}: Generated ${current}`);
+
+// }
+
+// console.log(`Target number ${target} reached in ${attempt} attempts`);
+
+//DATE 19TH SEP  EVENING TASK
+// let n=+prompt("enter a natural number");
+// let sum=0;
+// for(let i=1;i<=n;i++){
+//     sum+=i;
+// console.log(`Adding ${i}.Current sum: ${sum}`);
+// }
+// console.log(`Total sum of first ${n} number is :${sum}`);
+
+// let totalsegment=10;
+// let segment= '=';
+// let str='';
+// while(totalsegment>0){
+//   str=str+segment;
+//   console.log(str);
+//   totalsegment--;
+// }
+
+
+// let str=prompt("enter a password");
+// console.log(`password complexity check for ${str}`);
+// let digit=false;
+// let c=1;
+// let isupperc=false;
+// for(let i=0;i<str.length;i++){
+//     if(str.charAt(i)>="1"&&str.charAt(i)<="9"){
+//        digit=true; 
+        
+//     }else if(str.charAt(i)===str.charAt(i).toUpperCase()){
+//         if(c==1){
+//      isupperc=true;
+//      c++;
+//         }else{
+//             console.log("Only one uppercase letter enter");
+//             isupperc=false;
+//         }
+
+//     }
+//     if(digit&&isupperc&&str.length==6){
+//         console.log("strong password");
+//         break;
+//     }
+// }
+// if(isupperc){
+//     console.log("weak paswd");
+
+// }else if(digit){
+//     console.log("weak password");
+// }
+// else if(! isupperc&&!digit){
+//     console.log("weak pswd");
+// }
+
+// let str=prompt("enter a password");
+// let n=str.length;
+// if(str>=8){
+//     console.log("Password meets minimum length requirements.Good job!")
+// }else{
+//     console.log("password is too short .please use atleast 8 character")
+// }
+
+console.log(x);
+getName();
+console.log(getName)
+var x;
+var getName= function (){
+    console.log("sunitha");
 }
-console.log(`Attempt ${attempt}: Generated ${current}`);
-
 
 
 
